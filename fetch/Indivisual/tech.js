@@ -1,9 +1,8 @@
 var url_string = window.location.href
 var url = new URL(url_string);
 var query = url.searchParams.get("q");
-function random_item(items){return items[Math.floor(Math.random()*items.length)];}
-var apikeyarr = ["1084a30af0d34ba48ae2de64afb5618c","3721d73ea499493eb332beb03752af65","4f5d8467562d4a37875bbf1d80296046","e3e4cb5b0e5a4e10bd1638673a652d3c"];
-let apik=random_item(apikeyarr);
+
+let apik="1084a30af0d34ba48ae2de64afb5618c";
 // console.log(query)
 let v=document.getElementById("searchv").value;
 if(query==null){
